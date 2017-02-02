@@ -2,20 +2,21 @@
 <html>
 <head>
 	<title>Totally Facebook</title>
-	  <link rel="stylesheet" href="form.css" type="text/css"></link>
+	<link rel="stylesheet" href="form.css" type="text/css"></link>
 </head>
 <body>
-  <form action="/my-handling-form-page" method="post">
+	<h1> Sign Up </h1>
+	<p> It's free and always will be </p>
+  <form action="/my-handling-form-page" method="post" id="disform">
       <div>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name" />
+          <input type="text" id="name" name="user_name" size="15" maxlength="100" placeholder="First Name"/>
       </div>
       <div>
-          <label for="mail">E-mail:</label>
+          <label for="mail" id="deflabel">E-mail:</label>
           <input type="email" id="mail" name="user_mail" />
       </div>
       <div>
-          <label for="msg">Message:</label>
+          <label for="msg" id="deflabel">Message:</label>
           <textarea id="msg" name="user_message"></textarea>
       </div>
       <div class="button">
