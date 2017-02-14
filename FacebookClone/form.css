@@ -2,7 +2,7 @@ body {
   padding: 0px;
   margin: 20px;
   overflow-x: hidden;
-  background-color: #EEEEEE;
+  background-color: rgb(237, 240, 245);
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -28,6 +28,10 @@ body {
   width: 145px;
 }
 
+#radiobuttons {
+  writing-mode: horizontal;
+}
+
 input, textarea {
   margin-left: 0px;
   height: 30px;
@@ -42,6 +46,23 @@ input, textarea {
 input:focus, textarea:focus {
     /* To give a little highlight on active elements */
     border-color: #000;
+}
+
+#birthday-help {
+  font-size: 11px;
+}
+
+#day-list, #month-list, #year-list {
+  height: 30px;
+  width: 60px;
+  background-color: white;
+  border-style: solid;
+}
+
+#bday-header {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 textarea {
