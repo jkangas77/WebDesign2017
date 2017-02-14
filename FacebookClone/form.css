@@ -1,16 +1,16 @@
 body {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 20px;
   overflow-x: hidden;
   background-color: #EEEEEE;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 #disform {
-  margin: 0 auto;
+  /*margin: 0 auto;
   padding: 1em;
   border: 1px solid #CCC;
-  border-radius: 1em;
+  border-radius: 1em;*/
 }
 
 #deflabel{
@@ -19,17 +19,20 @@ body {
   text-align: right;
 }
 
-#name {
-  width: 150px;
+#fname {
+  width: 145px;
 }
 
-#name {
-  width: 150px;
+#lname {
+  margin-left: 6px;
+  width: 145px;
 }
 
 input, textarea {
-  margin-left: 20px;
+  margin-left: 0px;
+  height: 30px;
   font: 1em sans-serif;
+  border-radius: 5px;
   width: 300px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
