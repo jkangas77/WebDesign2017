@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Totally Facebook</title>
+	<title>Facebook - Log In or Sign Up</title>
 	<link rel="stylesheet" href="form.css" type="text/css"></link>
 </head>
 <body>
 	<h1> Sign Up </h1>
-	<p> It's free and always will be </p>
+	<p id="subheader"> It's free and always will be </p>
   <form action="/my-handling-form-page" method="post" id="disform">
       <div>
           <input type="text" id="fname" name="user_name" size="15" maxlength="100" placeholder="First Name"/>
@@ -195,14 +195,25 @@
 
 
 <p id="radiobuttons">
+Gender
 <label for="g1"><input type="radio" name="g" id="g1" value="M"> Female</label>
 <label for="g2"><input type="radio" name="g" id="g2" value="F"> Male</label>
+</p>
+
+<p id="almostthere">
+	By clicking Create Account, you agree to our
+	<a href="/legal/terms" id="terms-link" target="_blank" rel="nofollow">Terms</a>
+	 and that you have read our
+	 <a href="/about/privacy" id="privacy-link" target="_blank" rel="nofollow">Data Policy</a>
+	 , including our
+	 <a href="/policies/cookies/" id="cookie-use-link" target="_blank" rel="nofollow">Cookie Use</a>
+	 . You may receive SMS Notifications from Facebook and can opt out at any time.
 </p>
 
 
 
       <div class="button">
-        <button type="submit">Steal Your Credit-Card</button>
+        <button type="submit" id="greenbutton">Create Account</button>
     </div>
   </form>
 </body>
