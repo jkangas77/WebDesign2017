@@ -83,7 +83,7 @@ input:focus, textarea:focus {
 }
 
 #day-list, #year-list {
-  margin-left: -4px;
+  margin-left: -6px;
 }
 
 #day-list {
