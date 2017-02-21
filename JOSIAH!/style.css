@@ -23,6 +23,13 @@ body {
   color: white;
 }
 
+.illuminaticonfirm {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  background-image: url("maybeisilluminant.jpg");
+}
+
 #sidewords {
   color: #CCCCFF;
 }
@@ -108,6 +115,11 @@ body {
   margin-left: 300px;
 }
 
+#sketchygo a{
+  color: yellow;
+  text-decoration: none;
+}
+
 #classesp {
   background-color: #DDFF22;
   border: 20px solid;
@@ -155,6 +167,10 @@ body {
   top: 300px;
   margin-left: 300px;
   margin-right: 100vw - 100px;
+}
+
+#sickbodytext a {
+  text-decoration: none;
 }
 
 #sidelist {
